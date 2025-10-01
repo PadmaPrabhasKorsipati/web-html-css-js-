@@ -1,0 +1,35 @@
+@keyframes bounce {
+    0%{ transform: translateY(10vh);
+    }
+    20%{
+        transform: translateY(40vh);
+
+    }
+    30%{
+        transform: translateY(50vh);
+    }
+   40%{
+    transform: translateY(60vh);
+   }
+    
+}
+
+
+
+button{
+
+    height: 110px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    color: black;
+    transition: all 1s linear 0s;
+    animation: bounce 2s ease infinite;
+  
+}
+button:hover{
+    background-color: blue;
+ 
+    color: black;
+
+}

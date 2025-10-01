@@ -1,0 +1,168 @@
+body{
+
+    background-color: #f8f2e8;
+    font-family: 'poppins',sans-serif;
+    text-align: center;
+}
+.menu-container{
+    max-width: 600px;
+    margin: auto;
+    background-color:#fffaf0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0 0  0 0.1);
+}
+ .cafe{
+    color:#5a3e2b;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'poppins',sans-serif;
+
+}
+img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.title{
+    font-family: Cedarville Cursive;
+}
+.title span{
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    color: #3e2723;
+    font-family: 'poppins',sans-serif;
+}
+.menu-section{
+    text-align: left;
+    margin-top: 20px;
+    
+}
+.section-title{
+    font-size: 23px;
+    color: #5a3e2b;
+    border-bottom: 2px solid #8b5e3b;
+    display: inline-block;
+    padding-bottom: 5px;
+
+}
+ ul{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: space-between;
+  
+    
+ 
+}
+
+li{
+    width: 48%;
+    display: flex;
+    border-bottom: 1px dotted #8b5e3b;
+   justify-content: space-between;
+   padding: 6.6px 0;
+   font-size: 18px;
+
+ 
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+li span{
+    font-weight: bold;
+    color: #5a3e2b;
+}
+
+
+
+
+
+
+body{
+    background-color: rgb(181, 227, 227);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div{
+    background-color:rgb(221, 212, 195);
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 40px;
+
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    display: block;
+    font-weight: bold;
+}
+.img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+h3{
+    display: inline-block;
+    border-bottom: 2px solid rgb(129, 56, 56);
+    padding-bottom: 5px;
+    font-size: 23px;
+    text-align: left;
+    
+}
+ul{
+    display: inline;
+  text-align: left;
+    gap: 10px;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+
+
+li{
+    width: 48%;
+    display: flex;
+    border-bottom: 1px dotted #8b5e3b;
+   justify-content: space-between;
+   padding: 6.6px 0;
+   font-size: 18px;
+   gap: 10px;
+
+
+
+
+
+}
+.image{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.section{
+    text-align: left;
+    flex: 1;
+    padding: 10px;
+    color: #333;
+}

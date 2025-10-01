@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-align: center;
+    overflow-x: hidden; 
+    /* Ensures the text stays on a single line */
+    white-space: nowrap; 
+}
+
+.marquee-container {
+    width: 100%;
+    /* Creates a window for the scrolling text */
+    overflow: hidden; 
+    box-sizing: border-box;
+    padding: 10px 0;
+    background-color: #f0f0f0;
+}
+
+.marquee-text {
+    /* Allows the element to be animated */
+    display: inline-block;
+    
+    /* Pushes the text off the screen to the right initially */
+    padding-left: 100%;
+    
+    /* Applies the animation */
+    /* 25s: Duration of one full scroll. A higher number makes it slower. */
+    /* linear: Maintains a constant speed. */
+    /* infinite: Repeats the animation forever. */
+    animation: marquee 25s linear infinite;
+    
+    font-size: 20px;
+    color: #333;
+}
+
+/* Defines the horizontal scrolling animation */
+@keyframes marquee {
+    /* Start with the text fully off-screen to the right */
+    0% {
+        transform: translate(0, 0);
+    }
+    /* End by moving the text off-screen to the left */
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
